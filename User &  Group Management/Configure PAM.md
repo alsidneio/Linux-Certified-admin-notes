@@ -1,0 +1,12 @@
+- Plugable Authentication Modules: PAM 
+	- configuring how we want to authenticate 
+- **Authentication**: is  a way to prove identity 
+
+- PAM files are stored at `/etc/pam.d/`
+	- sufficient: 
+		- if auth module is true exit process with access
+	- required : this thing would definitely need to happen, all required must be true 
+		- if failed it can move to the next module 
+	- requisite: 
+		- if module fails then exit auth process with failure 
+- learn more about pam using `man pam.conf`
