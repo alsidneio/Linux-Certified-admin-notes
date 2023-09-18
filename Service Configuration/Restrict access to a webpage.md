@@ -1,0 +1,10 @@
+- to disable a http config add `<>.disabled` to the end of the file name 
+- in the httpd.conf file under the "Further realax access to the default document....> Directory"
+- under the options there is and `indexes` keyword, that allows a user to see the file directory 
+	- remove the option for indexes
+- the `Require` keyword only allows the cited ip to connect to page
+- to create a password for a user named john 
+	- `sudo htpasswd -c /etc/httpd/passwords john`
+- to remove a password for the user john 
+	- `sudo htpasswd -D /etc/httpd/passwords john`
+- 

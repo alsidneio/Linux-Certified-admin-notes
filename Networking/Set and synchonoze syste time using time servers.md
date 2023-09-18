@@ -1,3 +1,10 @@
+---
+Date: 
+tags:
+  - Chronyd
+aliases: []
+---
+
 chron- the service that controls time is chronyd.service 
 
 ```bash 

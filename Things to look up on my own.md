@@ -1,0 +1,2 @@
+- dig utitlity 
+- firewall-cmd 
